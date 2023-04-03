@@ -1,3 +1,6 @@
+import Technologies from "./components/Technologies";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
@@ -5,29 +8,7 @@ const App = () => {
     <div>
       <Header />
       <Technologies />
-    </div>
-  );
-};
-
-const Header = () => {
-  return (
-    <div>
-      <a href="#s">Home</a>
-      <a href="#s">News Feed</a>
-      <a href="#s">Messages</a>
-    </div>
-  );
-};
-
-const Technologies = () => {
-  return (
-    <div>
-      <ul>
-        <li>css</li>
-        <li>html</li>
-        <li>js</li>
-        <li>react</li>
-      </ul>
+      <Footer />
     </div>
   );
 };
